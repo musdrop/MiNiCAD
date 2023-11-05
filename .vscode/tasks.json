@@ -10,7 +10,11 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I",
+                "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include",
+                "-I",
+                "E:\\xiangmu\\MiNiCad\\head"
             ],
             "options": {
                 "cwd": "${fileDirname}"
