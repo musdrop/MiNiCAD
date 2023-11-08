@@ -17,14 +17,14 @@ int main()
 
 	Image im1(img1, 0, 0);
 	Image im2(img2, 34, 27);
-	Page page1(4, 20);
+	Page page1(0, 0);
 	page1.AddUIElement(&im1);
 	page1.AddUIElement(&im2);
 	while (true)
 	{
 		peekmessage(&msg, EX_MOUSE | EX_KEY);
 		Vector2 msgpos(msg.x, msg.y);
-		im2.position += (msgpos - im2.position) / 10000;
+		im2.position = (msgpos - im2.position) / 10000;
 		page1.DrawPage();
 	}
 
