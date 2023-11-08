@@ -27,6 +27,7 @@ Image::Image(const char path[], float x, float y, float width, float height)
 	position.y = y;
 	scale = Vector2(1, 1);
 	imgsrcpath = (LPCTSTR)path;
+	srcimg=new IMAGE;
 	if (width == 0 || height == 0)
 	{
 		loadimage(srcimg, imgsrcpath);
@@ -44,6 +45,7 @@ Image::Image(const char path[], Vector2 position, float width, float height)
 {
 	position = position;
 	imgsrcpath = (LPCTSTR)path;
+	srcimg=new IMAGE;
 	if (width == 0 || height == 0)
 	{
 		loadimage(srcimg, imgsrcpath);

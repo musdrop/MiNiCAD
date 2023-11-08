@@ -15,10 +15,11 @@ int main()
 	loadimage(&img1,_T("../assets/plane.jpg"));
 	loadimage(&img2,_T("../assets/qq.jpg"),20,30);
 
-	Image im1(img1, getwidth()/2, getheight()/2);
+	//Image im1(img1, getwidth()/2, getheight()/2);
 	Image im2(img2, 34, 27);
-	Page page1(33,44);
-	page1.AddUIElement(&im1);
+	Image im3("../assets/plane.jpg", 0, 0);
+	Page page1(0,0);
+	page1.AddUIElement(&im3);
 	page1.AddUIElement(&im2);
 	page1.DrawPage();
 	while (true)
