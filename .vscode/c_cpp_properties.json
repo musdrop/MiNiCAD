@@ -3,8 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "D:\\CppLibrary\\EasyX\\include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -19,8 +18,7 @@
         {
             "name": "C++",
             "includePath": [
-                "${workspaceFolder}/**",
-                "D:\\CppLibrary\\EasyX\\include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",

@@ -3,14 +3,14 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "CPP",
+            "label": "CPP",//任务名称
             "command": "E:\\Mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${file}",//当前文件，即源文件
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",//目标文件
                 "-leasyx",//链接easyx库
                 "-I",
                 "D:\\VscodeProg\\MiNiCad\\head"

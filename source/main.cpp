@@ -15,16 +15,17 @@ int main()
 	loadimage(&img1,_T("../assets/plane.jpg"));
 	loadimage(&img2,_T("../assets/qq.jpg"),20,30);
 
-	Image im1(img1, 0, 0);
+	Image im1(img1, getwidth()/2, getheight()/2);
 	Image im2(img2, 34, 27);
-	Page page1(0, 0);
+	Page page1(33,44);
 	page1.AddUIElement(&im1);
 	page1.AddUIElement(&im2);
+	page1.DrawPage();
 	while (true)
 	{
 		peekmessage(&msg, EX_MOUSE | EX_KEY);
 		Vector2 msgpos(msg.x, msg.y);
-		im2.position = (msgpos - im2.position) / 10000;
+		im2.position += (msgpos - im2.position) / 10000;
 		page1.DrawPage();
 	}
 
