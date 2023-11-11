@@ -11,6 +11,11 @@ public:
 		this->x = x;
 		this->y = y;
 	}
+	Vector2(float x,float y,const Vector2& pagepos)//窗口坐标转换成页面坐标
+	{
+		this->x = x - pagepos.x;
+		this->y = y - pagepos.y;
+	}
 	Vector2 operator+(Vector2& pos)
 	{
 		Vector2 res;
