@@ -11,7 +11,3 @@ class Text : public UIElement
     public:
         void Draw(Vector2 pagepos);
 };
-void Text::Draw(Vector2 pagepos)
-{
-    
-}

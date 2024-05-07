@@ -9,7 +9,6 @@ int main()
 	setbkcolor(RGB(85, 177, 85));
 	cleardevice();
 	setbkmode(TRANSPARENT);
-
 	Page page1(10, 84, 300, 300);
 	IMAGE img2;
 	loadimage(&img2, _T("../assets/ty.png"), 50, 50);
@@ -36,11 +35,12 @@ int main()
 	page1.AddUIElement(&im3);
 	while (true)
 	{
+		cout<<"hello world";
 		peekmessage(&msg, EX_MOUSE | EX_KEY);
 		Vector2 msgpos(msg.x, msg.y, page1.position);
 		im2.position += (msgpos - im2.position) / 1000;
 		page1.DrawPage();
 	}
-
+	
 	getchar();
 }

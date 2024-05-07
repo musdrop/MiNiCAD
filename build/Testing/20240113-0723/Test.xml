@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20240113-0723-Experimental"
+	Name="musdrop"
+	Generator="ctest-3.28.1"
+	CompilerName="E:/Vs/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.38.33133.0"
+	OSName="Windows"
+	Hostname="musdrop"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22631)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="22268"
+	TotalPhysicalMemory="16124"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2687"
+	>
+	<Testing>
+		<StartDateTime>Jan 13 16:08 中国标准时间</StartDateTime>
+		<StartTestTime>1705133337</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 13 16:08 中国标准时间</EndDateTime>
+		<EndTestTime>1705133337</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

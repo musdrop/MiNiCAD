@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VscodeProg\easyUI\build\CMakeFiles\68f3d9c15a4c0bcd4cdeb1a9fbb0da11\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VscodeProg\easyUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VscodeProg\easyUI\build\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3F41F347-6A72-393E-8B2D-C358F642D2C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

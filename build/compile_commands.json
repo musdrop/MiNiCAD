@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/DevelopProgram/easyUI/build",
+  "command": "E:\\Mingw64\\bin\\g++.exe  @CMakeFiles/easyui.dir/includes_CXX.rsp -g -o CMakeFiles\\easyui.dir\\source\\Image.cpp.obj -c D:\\DevelopProgram\\easyUI\\source\\Image.cpp",
+  "file": "D:/DevelopProgram/easyUI/source/Image.cpp",
+  "output": "CMakeFiles/easyui.dir/source/Image.cpp.obj"
+},
+{
+  "directory": "D:/DevelopProgram/easyUI/build",
+  "command": "E:\\Mingw64\\bin\\g++.exe  @CMakeFiles/easyui.dir/includes_CXX.rsp -g -o CMakeFiles\\easyui.dir\\source\\main.cpp.obj -c D:\\DevelopProgram\\easyUI\\source\\main.cpp",
+  "file": "D:/DevelopProgram/easyUI/source/main.cpp",
+  "output": "CMakeFiles/easyui.dir/source/main.cpp.obj"
+},
+{
+  "directory": "D:/DevelopProgram/easyUI/build",
+  "command": "E:\\Mingw64\\bin\\g++.exe  @CMakeFiles/easyui.dir/includes_CXX.rsp -g -o CMakeFiles\\easyui.dir\\source\\Page.cpp.obj -c D:\\DevelopProgram\\easyUI\\source\\Page.cpp",
+  "file": "D:/DevelopProgram/easyUI/source/Page.cpp",
+  "output": "CMakeFiles/easyui.dir/source/Page.cpp.obj"
+},
+{
+  "directory": "D:/DevelopProgram/easyUI/build",
+  "command": "E:\\Mingw64\\bin\\g++.exe  @CMakeFiles/easyui.dir/includes_CXX.rsp -g -o CMakeFiles\\easyui.dir\\source\\Text.cpp.obj -c D:\\DevelopProgram\\easyUI\\source\\Text.cpp",
+  "file": "D:/DevelopProgram/easyUI/source/Text.cpp",
+  "output": "CMakeFiles/easyui.dir/source/Text.cpp.obj"
+}
+]

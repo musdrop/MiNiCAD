@@ -1,5 +1,6 @@
 #pragma once
 #include <cmath>
+#include <iostream>
 //二维量
 class Vector2
 {

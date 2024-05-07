@@ -1,0 +1,3 @@
+E:\CMake\bin\cmake.exe -E rm -f CMakeFiles\easyui.dir/objects.a
+E:\Mingw64\bin\ar.exe qc CMakeFiles\easyui.dir/objects.a @CMakeFiles\easyui.dir\objects1.rsp
+E:\Mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\easyui.dir/objects.a -Wl,--no-whole-archive -o easyui.exe -Wl,--out-implib,libeasyui.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\easyui.dir\linkLibs.rsp
